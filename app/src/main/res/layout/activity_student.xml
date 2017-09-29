@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/edit_text_activity"
+    android:gravity="center"
+    tools:context="com.example.hp.activityrikkeisoft.activity.StudentActivity">
+    <TextView
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:id="@+id/tv_name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_country"
+        android:hint="@string/country"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_date_of_birth"
+        android:hint="@string/date_of_birth"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_sex"
+        android:hint="@string/sex"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_class"
+        android:hint="@string/class_name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_course"
+        android:hint="@string/course"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_ok"
+        android:text="@string/txt_ok"
+        android:background="@android:color/darker_gray"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

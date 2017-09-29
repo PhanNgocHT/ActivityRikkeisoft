@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ActivityRikkeisoft</string>
+
+
+    <string name="name">Họ tên sinh viên</string>
+    <string name="txt_ok">OK</string>
+    <string name="country">Quê quán</string>
+    <string name="date_of_birth">Ngày tháng năm sinh</string>
+    <string name="sex">Giới tính</string>
+    <string name="course">Khóa học</string>
+    <string name="class_name">Lớp</string>
+    <string name="inform">Bạn cần nhập vào đầy đủ thông tin</string>
+</resources>
